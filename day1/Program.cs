@@ -6,7 +6,7 @@ int age = 5;string name = "Justin";string name2 = "Ethan";
 
 
 
-/* * validate the number variable * do something if validated */
+ * validate the number variable * do something if validated */
 if (age == 1){}
 
 //declaring variables
@@ -68,3 +68,39 @@ if (y == null)
 }
 //nonnullable
 //int z = null;
+
+//exercises
+
+//1
+Console.WriteLine("What is your favorite color?");
+string favoriteColor = Console.ReadLine();
+Console.WriteLine(favoriteColor);
+
+//2
+Console.WriteLine("Please enter an number");
+int userInput = int.Parse(Console.ReadLine());
+userInput++;
+Console.WriteLine(userInput);
+
+//3
+Console.WriteLine("Enter a number");
+double userNum = double.Parse(Console.ReadLine());
+userNum += .5;
+Console.WriteLine(userNum);
+
+//4
+Console.WriteLine("Enter a number");
+double x = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number");
+double y = double.Parse(Console.ReadLine());
+Console.WriteLine(x + y);
+
+//5
+Console.WriteLine("Enter a number");
+int a= int.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine(a * b);
+
+
+
